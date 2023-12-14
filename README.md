@@ -13,4 +13,7 @@
   - `GARMIN_PASSWORD`: your Garmin Connect password
 - In file `download.py`, change the `start_date` and `end_date` variables to the desired date range
 - Run the script: `python download.py` to download heart rate data from Garmin Connect. Then data will be saved in the `heart_rate.csv` file.
-- Open `analysis.ipynb` in Jupyter Notebook and run the cells to generate the graphs.
+- Open `analysis.ipynb` in Jupyter Notebook :
+  - Change `sleep_start` and `sleep_end` variables to the desired sleep time range
+  - Change `max_hr` variable to your maximum heart rate
+  - Run the notebook to generate the analysis
