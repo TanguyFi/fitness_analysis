@@ -1,0 +1,6 @@
+garminconnect
+python-dotenv
+pandas
+plotly
+nbformat
+ipykernel
